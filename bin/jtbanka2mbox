@@ -1,0 +1,5 @@
+#!/usr/bin/env node
+
+const Client = require('../dist/jtbanka2mbox').Client;
+const client = new Client();
+client.run(process.argv.slice(2));
