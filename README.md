@@ -1,5 +1,3 @@
-# WORK IN PROGRESS (NOT READY YET)
-
 # jtbanka2mbox
 
 Convertor of J&amp;T Banka XML statements into sMoneybox import CSV files.
@@ -63,6 +61,8 @@ to process.
 
 It can for example be `2020` for all XML statements of year 2020, or `202006`
 for statements from June 2020 only.
+
+The files to process must have '.xml' or '.XML' extensions only!
 
 ## MIT License
 

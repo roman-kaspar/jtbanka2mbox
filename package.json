@@ -7,8 +7,8 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "build": "tsc --esModuleInterop --target ES2020 --module commonjs --outDir dist src/jtbanka2mbox.ts",
-    "dev:build": "tsc --esModuleInterop --watch --target ES2020 --module commonjs --outDir dist src/jtbanka2mbox.ts"
+    "build": "tsc --esModuleInterop --target ES2019 --module commonjs --outDir dist src/jtbanka2mbox.ts",
+    "dev:build": "tsc --esModuleInterop --watch --target ES2019 --module commonjs --outDir dist src/jtbanka2mbox.ts"
   },
   "renovate": {
     "extends": [
@@ -23,5 +23,10 @@
   "devDependencies": {
     "@types/node": "^14.14.35",
     "typescript": "^4.2.3"
+  },
+  "dependencies": {
+    "fast-xml-parser": "^3.19.0",
+    "minimist": "^1.2.5",
+    "printf": "^0.6.1"
   }
 }
